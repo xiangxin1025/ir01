@@ -1,0 +1,34 @@
+{
+    "name": "IR01",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "DFRobot_xia_mi_Board": "github:dfrobot/pxt-dfrobot_xia_mi_board#v0.8.3",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0",
+        "显示数字“0”": "pkg:显示数字“0”.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "显示数字“0”.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.68",
+        "tag": "v3.0.68",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3fd936c8e507d2318fab615facb37d0f07179fb",
+        "target": "8.0.18",
+        "pxt": "6.0.39",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
